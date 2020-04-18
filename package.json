@@ -1,0 +1,13 @@
+{
+  "name": "gama-covid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matheus Guimarães <matheusdepaul@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w" 
+  }
+}
