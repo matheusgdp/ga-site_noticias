@@ -89,3 +89,25 @@ body {
         }
     }
 } // fim header
+
+.banner {
+    position: absolute;
+    top: 80px;
+    height: 50vh;
+    width: 100vw;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary, 0.8),
+        rgba($color-primary-dark, 0.8)),
+        url(/img/cheers.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__title {
+        color: $color-white;
+        font-size: 5rem;
+    }
+}
