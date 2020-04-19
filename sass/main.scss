@@ -1,0 +1,91 @@
+$color-primary: #75ecba;
+$color-primary-dark: #35c4fd;
+
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #000;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: $color-grey-dark;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px $color-grey-dark;
+
+    &__logo-box {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: 1.5rem;
+
+        a {
+            display: flex;
+            text-decoration: none;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+
+            .logo--box {
+                height: 40px;
+                width: 40px;
+                margin-left: 5px;
+                text-transform: uppercase;
+                padding: 10px;
+                background: linear-gradient(
+                    135deg,
+                    $color-primary 35%,
+                    $color-primary-dark 80%
+                );
+                text-align: center;
+                color: $color-white;
+                font-weight: 700;
+            } //fim logo--box
+        } // fim a
+    } // fim logo-box
+
+    &__navbar {
+
+        margin-right: 10px;
+
+        .nav {
+            display: flex;
+            align-items: center;
+            list-style: none;
+
+            &__item {
+                a {
+                    text-decoration: none;
+                    padding: 5px;
+                    color: $color-primary-dark;
+
+                    &:hover {
+                        color: $color-primary;
+                    }
+                }
+                }
+        }
+    }
+} // fim header
