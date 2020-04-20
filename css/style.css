@@ -50,7 +50,8 @@ body {
       .header__navbar .nav__item a {
         text-decoration: none;
         padding: 5px;
-        color: #35c4fd; }
+        color: #35c4fd;
+        font-weight: 700; }
         .header__navbar .nav__item a:hover {
           color: #75ecba; }
 
@@ -58,7 +59,8 @@ body {
   height: 70px;
   background: linear-gradient(135deg, #75ecba 35%, #35c4fd 80%);
   text-align: center;
-  line-height: 70px; }
+  line-height: 70px;
+  margin-bottom: 50px; }
   .banner__title {
     color: #fff;
     font-size: 5rem; }
@@ -99,3 +101,18 @@ footer {
   color: #fff;
   height: 80px;
   background: linear-gradient(135deg, #75ecba 35%, #35c4fd 80%); }
+
+.saiba-mais-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 64px;
+  margin: 20px; }
+  .saiba-mais-box__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #35c4fd;
+    height: 200px; }
+    .saiba-mais-box__item a {
+      text-decoration: none;
+      color: #fff; }

@@ -75,6 +75,7 @@ body {
                     text-decoration: none;
                     padding: 5px;
                     color: $color-primary-dark;
+                    font-weight: 700;
 
                     &:hover {
                         color: $color-primary;
@@ -94,6 +95,7 @@ body {
     );
     text-align: center;
     line-height: 70px;
+    margin-bottom: 50px;
 
     &__title {
         color: $color-white;
@@ -155,4 +157,24 @@ footer {
         $color-primary 35%,
         $color-primary-dark 80%
     );
+}
+
+.saiba-mais-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 64px;
+    margin: 20px;
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $color-primary-dark;
+        height: 200px;
+
+        a {
+            text-decoration: none;
+            color: $color-white;
+        }
+    }
 }
