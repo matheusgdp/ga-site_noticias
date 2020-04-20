@@ -145,3 +145,30 @@ footer {
       text-decoration: none;
       font-size: 3rem;
       color: #75ecba; }
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .form-box form input,
+  .form-box form textarea {
+    border: 1px solid #35c4fd;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+    outline: none;
+    width: 300px;
+    font-family: "Lato", sans-serif; }
+  .form-box form textarea {
+    height: 200px; }
+  .form-box form button {
+    font-size: 1.5rem;
+    background: linear-gradient(135deg, #75ecba 35%, #35c4fd 80%);
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer; }

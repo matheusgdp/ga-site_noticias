@@ -206,9 +206,8 @@ footer {
         margin-bottom: 30px;
 
         p {
-            margin-bottom:10px;
+            margin-bottom: 10px;
         }
-        
     }
 
     .redes-sociais {
@@ -220,6 +219,47 @@ footer {
             text-decoration: none;
             font-size: 3rem;
             color: $color-primary;
+        }
+    }
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+
+        input,
+        textarea {
+            border: 1px solid $color-primary-dark;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 2rem;
+            border-radius: 10px;
+            outline: none;
+            width: 300px;
+            font-family: "Lato", sans-serif;;
+        }
+
+        textarea {
+            height: 200px;
+        }
+
+        button {
+            font-size: 1.5rem;
+            background: linear-gradient(
+                135deg,
+                $color-primary 35%,
+                $color-primary-dark 80%
+            );
+            border: none;
+            padding: 10px;
+            width: 100px;
+            border-radius: 20px;
+            color: $color-white;
+            font-weight: 700;
+            cursor: pointer;
         }
     }
 }

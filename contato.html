@@ -37,32 +37,27 @@
     </header>
 
     <div class="banner">
-        <h1 class="banner__title">Sobre</h1>
+        <h1 class="banner__title">Contato</h1>
     </div>
 
-    <div class="sobre-box">
+    <div class="form-box">
 
-        <div class="sobre-box__item">
-            <div class="sobre-box__foto">
-                <img src="/img/eu.jpg" alt="">
-            </div>
-            <h1>Matheus de Paula</h1>
-            
-            <div class="curriculo">
-                <p>Engenheiro de Produção | PUC-Rio</p>
-                <p>Especialização em Empreendedorismo e Inovação | PUC-Rio</p>
-                <p>Formação Web Master | Infnet</p>
-                <p>Especialização em Ciência de Dados e Big Data | PUC-Minas</p>
-            </div>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <input type="text" name="name" placeholder="Nome"/>
+            </p>
+            <p>
+              <input type="email" name="email" placeholder="Email"/>
+            </p>
+            <p>
+              <textarea name="message" placeholder="Menssagem"></textarea>
+            </p>
+            <p>
+              <button type="submit">Enviar</button>
+            </p>
+          </form>
 
-            <div class="redes-sociais">
-                <span><a href="https://www.instagram.com/matheusgdp/"><i class="fab fa-instagram"></a></i></span>
-                <span><a href="https://www.linkedin.com/in/matheus-guimar%C3%A3es-de-paula-8625b566/"><i class="fab fa-linkedin-in"></a></i></span>
-                <span><a href="https://github.com/matheusgdp"><i class="fab fa-github"></a></i></span>
-            </div>
-        </div>
-
-    </div> <!-- fim .sobre-box-->
+    </div> <!-- fim .form-box-->
 
     <footer>
         <p>Desenvolvido por Matheus Guimarães</p>
