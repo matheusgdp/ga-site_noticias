@@ -116,3 +116,32 @@ footer {
     .saiba-mais-box__item a {
       text-decoration: none;
       color: #fff; }
+
+.sobre-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .sobre-box__foto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
+    .sobre-box__foto img {
+      border: #35c4fd solid 10px;
+      border-radius: 50%; }
+  .sobre-box h1 {
+    margin-bottom: 20px;
+    text-align: center; }
+  .sobre-box .curriculo {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px; }
+    .sobre-box .curriculo p {
+      margin-bottom: 10px; }
+  .sobre-box .redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .sobre-box .redes-sociais a {
+      text-decoration: none;
+      font-size: 3rem;
+      color: #75ecba; }

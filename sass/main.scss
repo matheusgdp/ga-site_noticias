@@ -178,3 +178,48 @@ footer {
         }
     }
 }
+
+.sobre-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__foto {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        img {
+            border: $color-primary-dark solid 10px;
+            border-radius: 50%;
+        }
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .curriculo {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+
+        p {
+            margin-bottom:10px;
+        }
+        
+    }
+
+    .redes-sociais {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            font-size: 3rem;
+            color: $color-primary;
+        }
+    }
+}
